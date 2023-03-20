@@ -40,6 +40,9 @@ body {
 .header-logostudio {
 	color: var(--logostudio-color);
 }
+.header-logostudio-w {
+	color: var(--logostudio-w-color);
+}
 
 address {
 	font-style: normal;
@@ -76,10 +79,8 @@ address {
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-	text-align: center;
 	letter-spacing: 0.02em;
 	color: var(--hero-title-color);
-	display: block;
 }
 .hero-btn {
 	font-family: inherit;
@@ -91,7 +92,7 @@ address {
 	letter-spacing: 0.04em;
 	color: var(--hero-title-color);
 	background: var(--logoweb-color);
-	border: 1px;
+
 	cursor: pointer;
 }
 
@@ -207,9 +208,10 @@ address {
 	letter-spacing: 0.02em;
 	color: var(--logostudio-color);
 }
-.services-description {
+.services-text {
 	font-size: 16px;
 	line-height: 1.5;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--contakt-color);
 }
