@@ -126,7 +126,8 @@ address {
 	color: var(--logostudio-color);
 	text-align: center;
 }
-
+.work-item {
+}
 .work-list {
 }
 .work-link {
@@ -207,14 +208,13 @@ address {
 .services-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.5;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--logostudio-color);
 }
 .services-text {
 	font-size: 16px;
 	line-height: 1.5;
-	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--contakt-color);
 }
