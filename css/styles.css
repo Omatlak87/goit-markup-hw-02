@@ -1,9 +1,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: var(--hero-title-color);
-	color: #434455
-
-
+	color: #434455;
 }
 .list {
 	list-style: none;
@@ -27,6 +25,7 @@ body {
 .header-navigation {
 }
 .header-logoweb,
+.header-logostudio,
 .header-logostudio-w {
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
@@ -38,7 +37,7 @@ body {
 	display: inline;
 }
 
-span {
+.header-logostudio {
 	color: var(--logostudio-color);
 }
 
@@ -138,11 +137,11 @@ address {
 .team-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.11;
 	font-size: 36px;
-letter-spacing: 0.02em;
+	letter-spacing: 0.02em;
 	text-align: center;
-		text-transform: capitalize;
+	text-transform: capitalize;
 	text-align: center;
 	color: var(--logostudio-color);
 }
@@ -150,9 +149,9 @@ letter-spacing: 0.02em;
 	background: var(--hero-title-color);
 }
 .team-name {
-	font-weight: 500
+	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: var(--logostudio-color);
 }
@@ -187,10 +186,9 @@ letter-spacing: 0.02em;
 	color: var(--logoweb-color);
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
-	cursor: pointer
+	cursor: pointer;
 }
-.portfolio-btn:hover{
-	
+.portfolio-btn:hover {
 	background: var(--hero-btn-background-hover);
 	color: var(--hero-title-color);
 }
@@ -213,7 +211,5 @@ letter-spacing: 0.02em;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--hero-btn-background-hover);
-
+	color: var(--contakt-color);
 }
-
