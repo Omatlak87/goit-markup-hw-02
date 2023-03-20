@@ -139,8 +139,7 @@ address {
 .team-title {
 	font-weight: 500;
 	font-size: 20px;
-
-	line-height: 1.5;
+	line-height: 1.1;
 	font-size: 36px;
 	letter-spacing: 0.02em;
 	text-align: center;
@@ -154,7 +153,7 @@ address {
 .team-name {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.11;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--logostudio-color);
 }
@@ -179,6 +178,9 @@ address {
 	color: var(--logostudio-w-color);
 }
 /* Портфоліо------------------------------------------- */
+.item {
+	list-style: none;
+}
 .portfolio-btn {
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -200,13 +202,13 @@ address {
 	background: var(--hero-btn-background-hover);
 	color: var(--hero-title-color);
 }
-.services-link {
+.services-item {
 	text-decoration: none;
 }
 .services-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--logostudio-color);
 }
