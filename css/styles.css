@@ -80,7 +80,7 @@ address {
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	letter-spacing: 0.02em;
-	text-align: center
+	text-align: center;
 	color: var(--hero-title-color);
 }
 .hero-btn {
