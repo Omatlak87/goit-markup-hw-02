@@ -80,6 +80,7 @@ address {
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	letter-spacing: 0.02em;
+	text-align: center
 	color: var(--hero-title-color);
 }
 .hero-btn {
@@ -138,7 +139,8 @@ address {
 .team-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.11;
+
+	line-height: 1.5
 	font-size: 36px;
 	letter-spacing: 0.02em;
 	text-align: center;
