@@ -93,7 +93,6 @@ address {
 	letter-spacing: 0.04em;
 	color: var(--hero-title-color);
 	background: var(--logoweb-color);
-
 	cursor: pointer;
 }
 
@@ -139,7 +138,7 @@ address {
 .team-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.1;
+	line-height: 1.11;
 	font-size: 36px;
 	letter-spacing: 0.02em;
 	text-align: center;
