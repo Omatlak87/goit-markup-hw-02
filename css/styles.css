@@ -1,7 +1,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: var(--hero-title-color);
-	color: var(--basic-color);
+	/* color: var(--basic-color); */
 }
 .list {
 	list-style: none;
@@ -129,7 +129,7 @@ address {
 }
 .work-link {
 }
-/* --Section 3--------------------------------------------*/
+/* --Section 4--------------------------------------------*/
 .team {
 	background: var(--logostudio-w-color);
 }
@@ -146,6 +146,7 @@ address {
 	background: var(--hero-title-color);
 }
 .team-name {
+	font-weight: 500
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -173,6 +174,7 @@ address {
 }
 /* Портфоліо------------------------------------------- */
 .portfolio-btn {
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -181,8 +183,14 @@ address {
 	color: var(--logoweb-color);
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
+	cursor: pointer
 }
-.portfolio-btn:hover,
+.portfolio-btn:hover{
+	
+	background: var(--hero-btn-background-hover);
+	color: var(--hero-title-color);
+}
+
 .portfolio-btn:focus {
 	background: var(--hero-btn-background-hover);
 	color: var(--hero-title-color);
@@ -201,5 +209,7 @@ address {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--contakt-color);
+	color: var(--hero-btn-background-hover);
+
 }
+
